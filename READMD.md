@@ -24,4 +24,8 @@
 
 # git push
 把当前分支推送到远程仓库
+
+# npm i vue
+npm 6.0版本开始不需要加--save,默认和面会加上--save
+npm i是npm install的简写
 ```

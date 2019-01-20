@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/zaishuiyixia/xu-design/issues"
   },
-  "homepage": "https://github.com/zaishuiyixia/xu-design#readme"
+  "homepage": "https://github.com/zaishuiyixia/xu-design#readme",
+  "dependencies": {
+    "vue": "^2.5.22"
+  }
 }
