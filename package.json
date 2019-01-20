@@ -1,0 +1,25 @@
+{
+  "name": "xu-design",
+  "version": "1.0.0",
+  "description": "Vue UI 框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaishuiyixia/xu-design.git"
+  },
+  "keywords": [
+    "vue",
+    "ui\u001b[D\u001b[D",
+    "\u001b[\u001b[\u001b[C\u001b[C\u001b[ui",
+    "frame"
+  ],
+  "author": "Xu GuoJun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaishuiyixia/xu-design/issues"
+  },
+  "homepage": "https://github.com/zaishuiyixia/xu-design#readme"
+}
