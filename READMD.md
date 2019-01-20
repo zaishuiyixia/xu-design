@@ -25,7 +25,14 @@
 # git push
 把当前分支推送到远程仓库
 
+# npm init
+npm init用来初始化生成一个新的package.json文件，该文件定义了项目的配置信息，还有项目依赖的模块。
+package.json存在时，直接运行命令:npm install 或者 npm install xxx --save会自动将package.json中记录的项目依赖的模块安装到node-modules文件夹下。
+
 # npm i vue
 npm 6.0版本开始不需要加--save,默认和面会加上--save
 npm i是npm install的简写
+
+# npm i -D parcel-bundler
+如果一个包是给用户使用的npm i 后面是不用加-D(这个D是devDependencies，即developer dependencies，开发者依赖的意思)，如果是给开发者使用的包后面就要加上-D
 ```
