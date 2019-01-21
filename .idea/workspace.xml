@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821066b2-51e7-4b80-bc4e-364621ef3ff2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
@@ -36,7 +37,7 @@
           <entry key="js" value="2" />
           <entry key="json" value="2" />
           <entry key="md" value="2" />
-          <entry key="vue" value="3" />
+          <entry key="vue" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -45,27 +46,27 @@
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Vue.js" value="3" />
+          <entry key="Vue.js" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="28" />
-          <entry key="html" value="970" />
-          <entry key="js" value="149" />
+          <entry key="html" value="995" />
+          <entry key="js" value="167" />
           <entry key="json" value="45" />
           <entry key="md" value="934" />
-          <entry key="txt" value="114" />
-          <entry key="vue" value="621" />
+          <entry key="txt" value="177" />
+          <entry key="vue" value="843" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="970" />
+          <entry key="HTML" value="995" />
           <entry key="JSON" value="45" />
-          <entry key="JavaScript" value="149" />
-          <entry key="PLAIN_TEXT" value="1076" />
-          <entry key="Vue.js" value="621" />
+          <entry key="JavaScript" value="167" />
+          <entry key="PLAIN_TEXT" value="1139" />
+          <entry key="Vue.js" value="843" />
         </counts>
       </usages-collector>
     </session>
@@ -77,8 +78,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+                <state relative-caret-position="135">
+                  <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#21#0" expanded="true" />
                   </folding>
@@ -104,20 +105,29 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="309">
-                  <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+                <state relative-caret-position="363">
+                  <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/button.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="241">
-                  <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+                <state relative-caret-position="81">
+                  <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/icon.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="297">
+                  <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -155,12 +165,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/button.js" />
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/READMD.md" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/icon.vue" />
         <option value="$PROJECT_DIR$/src/button.vue" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -169,9 +180,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -196,6 +204,11 @@
             <path>
               <item name="xu-design" type="b2602c69:ProjectViewProjectNode" />
               <item name="xu-design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xu-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xu-design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,7 +249,7 @@
       <workItem from="1547964830864" duration="3682000" />
       <workItem from="1547970638686" duration="1132000" />
       <workItem from="1547971793413" duration="11397000" />
-      <workItem from="1548033203120" duration="5730000" />
+      <workItem from="1548033203120" duration="7131000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1547970245594</created>
@@ -280,11 +293,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548037220717</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="验证iconPosition为left或者right的一个">
+      <created>1548041188595</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548041188595</updated>
+    </task>
+    <task id="LOCAL-00008" summary="将button里面的icon图标抽离成icon组件">
+      <created>1548041865647</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1548041865647</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21941000" />
+    <option name="totallyTimeSpent" value="23342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -341,20 +368,12 @@
     <MESSAGE value="ignore cache dist" />
     <MESSAGE value=".gitignore文件的作用说明" />
     <MESSAGE value="添加icon和icon-position属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加icon和icon-position属性" />
+    <MESSAGE value="验证iconPosition为left或者right的一个" />
+    <MESSAGE value="将button里面的icon图标抽离成icon组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="将button里面的icon图标抽离成icon组件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/button.js" />
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -383,17 +402,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        <state relative-caret-position="135">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/icon.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/button.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        <state relative-caret-position="81">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
         </state>
       </provider>
     </entry>

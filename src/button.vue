@@ -1,6 +1,7 @@
 <template>
     <button class="g-button" :class="{[`icon-${iconPosition}`]: true}">
         <g-icon v-if="icon" class="icon" :name="icon"></g-icon>
+        <g-icon class="loading" name="loading"></g-icon>
         <div class="content">
             <slot></slot>
         </div>
@@ -22,6 +23,13 @@
     }
 </script>
 <style lang="scss">
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    .loading {
+        animation: spin 2s infinite linear;
+    }
     .g-button {
         font-size: var(--font-size); height: var(--button-height);padding: 0 1em; /* 按钮左右空出来一个字的大小。给按钮写死宽高是不太好的选择 */
         border-radius: var(--border-radius); border: 1px solid var(--border-color);
