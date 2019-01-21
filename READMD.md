@@ -50,4 +50,9 @@ npm i是npm install的简写
 xlink属性前面加:表示这个属性值是动态的，同时加了冒号后，等号后面的代码就是js代码。
 也可以去掉双引号，直接写成<use :xlink:href=`#i-${icon}`></use>。
 ``反引号的意思是里面的内容是一个js字符串。
+
+# <g-button loading="true"></g-button>和<g-button loading="true"></g-button>的区别
+<g-button loading="true"></g-button>当这么写的时候loading传的是字符串"true"。
+<g-button :loading="true"></g-button>当这么写的时候loading传的是布尔值true，:loading表示等号后面loading的值是js代码，这时也可以写成这样
+<g-button :loading=true></g-button>，这时加不加双引号都是可以的，为了美观一般还是加上
 ```
