@@ -17,10 +17,9 @@
 
 # 在项目根目录下添加.gitignore文件，用来再上传的时候忽略不想上传的文件
 比如说不想上传根目录下的node_modules文件夹和dist文件夹，就在.gitignore文件里面添加：
-```
 node_modules/
 dist/
-```
+
 文件名后面的/表示这个目录
 
 # git add .
@@ -46,4 +45,9 @@ npm i是npm install的简写
 
 # npm i -g git-open
  git-open是一个方便开发者查看提交历史的工具包，全局安装好后在任何一个git目录输入git open会直接打开github对应的页面，查看git的提交
+
+# <use :xlink:href="`#i-${icon}`"></use>
+xlink属性前面加:表示这个属性值是动态的，同时加了冒号后，等号后面的代码就是js代码。
+也可以去掉双引号，直接写成<use :xlink:href=`#i-${icon}`></use>。
+``反引号的意思是里面的内容是一个js字符串。
 ```
